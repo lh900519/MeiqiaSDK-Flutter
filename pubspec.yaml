@@ -35,8 +35,8 @@ flutter:
       android:
         package: com.meiqia.meiqia_sdk_flutter
         pluginClass: MeiqiaSdkFlutterPlugin
-      ios:
-        pluginClass: MeiqiaSdkFlutterPlugin
+      # ios:
+      #   pluginClass: MeiqiaSdkFlutterPlugin
 
   # To add assets to your plugin package, add an assets section, like this:
   # assets:
