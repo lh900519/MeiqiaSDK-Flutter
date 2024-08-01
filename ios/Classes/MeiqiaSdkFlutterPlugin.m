@@ -352,10 +352,10 @@ static NSString *const kSalesCount = @"salesCount";  // 销售量
 #pragma mark - AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    
-    //推送注册
-    [self requestAuthorizeation:application];
-    
+
+    // //推送注册
+    // [self requestAuthorizeation:application];
+
     return YES;
 }
 
@@ -383,7 +383,7 @@ static NSString *const kSalesCount = @"salesCount";  // 销售量
 }
 - (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
 #pragma mark  集成第四步: 上传设备deviceToken
-    [MQManager registerDeviceToken:deviceToken];
+    // [MQManager registerDeviceToken:deviceToken];
 }
 
 @end
